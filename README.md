@@ -13,8 +13,22 @@
 
 ---
 
+## ⚡ 快速路径 (Quick Navigation)
+
+> **🎯 新手必看：** 不知道从哪里开始？直接点击下方链接，3分钟上手！
+
+| 📄 文档 | 🎯 适合人群 | 📝 核心内容 |
+| :--- | :--- | :--- |
+| **[🚀 3分钟极速启动](./Quick_Start.md)** | 所有人 | 本地部署 + 云端平替，立即用上 DeepSeek R1 |
+| **[🧠 提示词库大全](./Prompts_Library.md)** | 学生/职场/程序员/自媒体 | 4类人群专家级指令 + 调优技巧 |
+| **[💰 变现实战指南](./Monetization.md)** | 想搞钱的你 | 3个低门槛案例 + 立即行动清单 |
+| **[🛠️ 工具下载中心](./Tools_Download.md)** | 需要工具的开发者 | 所有客户端/插件/手机端方案下载链接 |
+
+---
+
 ## 📖 目录 (Table of Contents)
 
+- [⚡ 快速路径 (Quick Navigation)](#-快速路径-quick-navigation)
 - [🔥 必读：为什么选择 DeepSeek R1？](#-必读为什么选择-deepseek-r1)
 - [🚀 3分钟极速启动 (Quick Start)](#-3分钟极速启动-quick-start)
 - [🚨 新手入门：官网崩了怎么办？](#-新手入门官网崩了怎么办)
@@ -23,7 +37,7 @@
 - [🧠 行业提示词库：绝密 Prompt 清单](#-行业提示词库)
 - [🧰 核心工具箱：10 大开源神器](#-核心工具箱10-大开源神器)
 - [💰 变现与案例：普通人如何用它搞钱](#-变现与案例)
-- [🤝 贡献与交流](#-贡献与交流)
+- [🤝 联系作者 / 领取完整资源包](#-联系作者--领取完整资源包)
 
 ---
 
@@ -71,39 +85,83 @@
 - **知识库搭建:** 配合 MaxKB 或 AnythingLLM 喂给它你所有的 PDF 文档。
 
 ## 🧠 行业提示词库
-*经过 1000+ 次测试的 DeepSeek 专用“深度思考”指令：*
+
+> 💡 **完整提示词库：** 查看 [🧠 提示词库大全](./Prompts_Library.md) 获取 4 类人群的专家级指令和调优技巧
+
+*经过 1000+ 次测试的 DeepSeek 专用"深度思考"指令：*
 
 | 场景 | 简介 | 链接 |
 | :--- | :--- | :--- |
-| **学术/学生** | 论文润色、降重、文献综述自动生成 | [查看 Prompt](./prompts/academic.md) |
-| **自媒体** | 小红书爆款标题、口语化文案重写 | [查看 Prompt](./prompts/social-media.md) |
-| **程序员** | 代码审计、LeetCode 解题思路、Bug 修复 | [查看 Prompt](./prompts/coding.md) |
-| **求职者** | 简历优化、模拟面试官 (压力面试) | [查看 Prompt](./prompts/interview.md) |
+| **🎓 学生/学术** | 论文润色、降重、文献综述自动生成 | [查看指令](./Prompts_Library.md#-学生学术场景) |
+| **💼 职场/求职** | 简历优化、模拟面试官、压力面试训练 | [查看指令](./Prompts_Library.md#-职场求职场景) |
+| **💻 程序员/开发** | 代码审计、LeetCode 解题、Bug 修复 | [查看指令](./Prompts_Library.md#-程序员开发场景) |
+| **📱 自媒体/内容** | 小红书爆款标题、口语化文案重写 | [查看指令](./Prompts_Library.md#-自媒体内容创作) |
 
 ---
 
 ## 🧰 核心工具箱：10 大开源神器
 
+> 💡 **完整下载链接：** 查看 [🛠️ 工具下载中心](./Tools_Download.md) 获取所有工具的安装包和详细说明
+
 以下项目完美适配 DeepSeek，建议 Star 收藏：
 
-| 项目名称 | 核心功能 | 推荐理由 |
+| 🛠️ 工具 | 📦 类型 | ⭐ 必用理由 |
 | :--- | :--- | :--- |
-| **[Ollama](https://github.com/ollama/ollama)** | 模型运行器 | 本地部署 DeepSeek 的基石，命令行神器。 |
-| **[Cherry Studio](https://github.com/cherry-ai/cherry-studio)** | 桌面客户端 | 高颜值、支持多模型切换，体验极佳的 GUI。 |
-| **[Dify](https://github.com/langgenius/dify)** | LLM 应用开发 | **最强推荐**，零代码搭建 Agent 和工作流。 |
-| **[MaxKB](https://github.com/1Panel-dev/MaxKB)** | 知识库问答 | 基于 LLM 的企业级知识库，RAG 效果好，适合内网。 |
-| **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** | 私人文档库 | 隐私性极强，支持全格式文档投喂。 |
-| **[Chatbox](https://github.com/Bin-Huang/chatbox)** | 多平台客户端 | 开源老牌客户端，支持 API 转发，稳定。 |
-| **[Lobe Chat](https://github.com/lobehub/lobe-chat)** | 现代化 UI | 界面极其华丽，插件生态丰富（画图/联网）。 |
-| **[Page Assist](https://github.com/nathan-149/page-assist)** | 浏览器侧边栏 | 能够读取当前网页内容并让 DeepSeek 总结。 |
-| **[Open WebUI](https://github.com/open-webui/open-webui)** | 仿 ChatGPT | 功能最全的 Web 界面，支持语音、图像等多模态。 |
-| **[Cline](https://github.com/cline/cline)** | 编程助手 | VS Code 里的最强 AI 助手，配合 DeepSeek 编程成本极低。 |
+| **[Ollama](https://github.com/ollama/ollama)** | 模型运行器 | **本地部署基石** - 一条命令启动 DeepSeek，无需配置环境变量 |
+| **[Cherry Studio](https://github.com/cherry-ai/cherry-studio)** | 桌面客户端 | **颜值天花板** - 支持多模型无缝切换，界面比 ChatGPT 还好看 |
+| **[Dify](https://github.com/langgenius/dify)** | LLM 应用开发 | **零代码神器** - 拖拽式搭建 AI Agent，企业级工作流 5 分钟搞定 |
+| **[MaxKB](https://github.com/1Panel-dev/MaxKB)** | 知识库问答 | **内网首选** - RAG 效果吊打 LangChain，支持私有化部署 |
+| **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** | 私人文档库 | **隐私之王** - 全格式文档投喂，数据永不外传，适合敏感行业 |
+| **[Chatbox](https://github.com/Bin-Huang/chatbox)** | 多平台客户端 | **稳定老将** - 开源 3 年+，支持 API 转发，团队协作首选 |
+| **[Lobe Chat](https://github.com/lobehub/lobe-chat)** | 现代化 UI | **插件生态** - 内置画图/联网/语音，一个界面搞定所有 AI 需求 |
+| **[Page Assist](https://github.com/nathan-149/page-assist)** | 浏览器插件 | **网页助手** - 自动读取当前页面，让 DeepSeek 帮你总结/翻译 |
+| **[Open WebUI](https://github.com/open-webui/open-webui)** | Web 界面 | **功能最全** - 支持语音输入、图像识别，多模态体验拉满 |
+| **[Cline](https://github.com/cline/cline)** | VS Code 插件 | **编程神器** - VS Code 里最强 AI 助手，写代码效率提升 10 倍 |
 
 ---
 
-## 💰 变现与案例 (Coming Soon)
-- [ ] 如何用 DeepSeek 批量生成儿童绘本故事 (闲鱼变现)
-- [ ] 搭建垂直领域法律顾问 AI (企业服务)
-- [ ] 自动化生成 SEO 垃圾站内容 (流量主)
+## 💰 变现与案例
+
+> 💡 **完整变现指南：** 查看 [💰 变现实战指南](./Monetization.md) 获取 3 个低门槛案例和立即行动清单
+
+**快速预览：**
+- 🎨 **代部署服务** - 帮小白安装 Ollama，一次收费 50-200 元
+- 📚 **垂直知识库搭建** - 为企业搭建法律/医疗 AI 顾问，月入 5000+
+- ✍️ **AI 内容代运营** - 批量生成小红书/公众号内容，按篇收费
+
+---
+
+## 🤝 联系作者 / 领取完整资源包
+
+> **🎁 限时福利：** 关注公众号或添加微信，立即领取以下资源（价值 500+ 元）
+
+### 📦 资源包内容
+
+1. **📥 DeepSeek 模型网盘下载链接** (防止 HuggingFace 被墙，下载速度提升 10 倍)
+2. **📋 企业级 Dify 工作流 JSON 模板** (直接导入可用，包含 10+ 行业场景)
+3. **💼 每日更新的"搞钱"实战案例拆解** (闲鱼/小红书/企业服务全流程)
+4. **🎯 100+ 精选 Prompt 指令库** (学生/职场/程序员/自媒体全覆盖)
+5. **🛠️ 所有工具的国内镜像下载地址** (解决 GitHub 访问慢的问题)
+
+### 🔗 获取方式
+
+**方式一：微信扫码（推荐）**
+> ![微信二维码](https://via.placeholder.com/200x200?text=WeChat+QR+Code)
+> 
+> *扫码后回复 "DeepSeek" 自动获取资源包*
+
+**方式二：闲鱼搜索**
+> 搜索关键词：**"DeepSeek 部署"** 或 **"AI 模型安装"**
+> 
+> 找到作者店铺，下单后立即发货（包含视频教程 + 一对一答疑）
+
+**方式三：GitHub Issue**
+> 在仓库 [Issues](https://github.com/suiborongyu/Awesome-DeepSeek-Chinese/issues) 中留言，作者会定期回复
+
+---
+
+> **💬 已有 500+ 开发者与自媒体人加入，进群不迷路。**
+> 
+> *所有资源包永久更新，一次获取，终身受益！*
 
 ---
