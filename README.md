@@ -92,7 +92,3 @@
 - [ ] 自动化生成 SEO 垃圾站内容 (流量主)
 
 ---
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/YOUR_REPO_NAME&type=Date)](https://star-history.com/#YOUR_USERNAME/YOUR_REPO_NAME&Date)
